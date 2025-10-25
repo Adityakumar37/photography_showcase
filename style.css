@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#3b3c3a, #090909);
+    /* background-image: url(Flowers/IMG_20250817_175111991.jpg); */
+    margin: 0%;
+    background-position: center;
+    background-size: cover;
+    height: 400vh;
+}
+
+
+
+.top{
+
+  background-color: #0b0b0b;
+  color: rgb(202, 185, 99);
+  position: relative;
+  padding:  16px ;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    
+}
+
+
+s{
+  position: absolute;
+  right: 30px;
+  top: 30%;
+
+}
+
+.btns a{
+  border: 1px solid rgb(161, 154, 119);
+  padding: 10px;
+  
+  margin: 10px;
+}
+
+.types {
+  background-color: #141313;
+  padding: 14px 0;
+  text-align: center; 
+}
+
+.types a {
+  display: inline-block; 
+  text-decoration: none;
+  color: #eadfdf;
+  font-weight: 500;
+  margin: 0 25px;        
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+
+}
+
+.types a:hover {
+
+  border: 2px solid #3d3d3d;
+  color: #858181;
+  box-shadow: #eadfdf;
+  transform: scale(1.05);
+  background-color:#1f1d1d ;
+  
+  
+  
+}
+
+
+.btns a:hover{
+    background-color:#423b3b ;
+    cursor: pointer;
+    color: white;
+    box-shadow: #eadfdf;
+    border-radius: 50%;
+}
+
+
+/* flowers wale item */
+.f1 {
+  border-radius: 5%;
+  display: inline-block;
+  width: 31.0%; 
+  height: 550px;
+  margin: 10px;
+  
+  
+
+}
+.f1 img{
+  width: 100%;
+  height: 550px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+
+
+}
+
+.f2 {
+  border-radius: 2%;
+  display: inline-block;
+  width: 30%; 
+  height: 600px;
+  margin: 10px;
+ 
+
+}
+.f2 img{
+  width: 100%;
+  height: 600px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+
+}
+
+.f3 {
+  border-radius: 2%;
+  
+  width: 30%; 
+  height: 650px;
+  margin: 10px;
+ 
+
+}
+.f3 img{
+  width: 100%;
+  height: 650px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+
+}
+
+
+
+
+.f4 {
+
+  border-radius: 2%;
+  width: 30%; 
+  height: 650px;
+  margin: 10px;
+ 
+
+}
+.f4 img{
+  width: 100%;
+  height: 650px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+
+}
+
+
+/* hover wale hai */
+
+.onlyhover{
+  display: flex;
+}
+
+.onlyhover img:hover {
+  
+  transform: scale(1.05); 
+  
+}
