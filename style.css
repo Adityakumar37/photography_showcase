@@ -81,7 +81,7 @@ s{
   border-radius: 5%;
   display: inline-block;
   width: 31.0%; 
-  height: 550px;
+  height: 600px;
   margin: 10px;
   
   
@@ -89,25 +89,26 @@ s{
 }
 .f1 img{
   width: 100%;
-  height: 550px;
+  height: 600px;
   border-radius: 2%;
   transition: transform 0.3s ease;
 
 
 }
 
+
 .f2 {
   border-radius: 2%;
   display: inline-block;
   width: 30%; 
-  height: 550px;
+  height: 600px;
   margin: 10px;
  
 
 }
 .f2 img{
   width: 100%;
-  height: 550px;
+  height: 600px;
   border-radius: 2%;
   transition: transform 0.3s ease;
 
@@ -117,39 +118,48 @@ s{
   border-radius: 2%;
   display: inline-block;
   width: 30%; 
-  height: 650px;
+  height: 600px;
   margin: 10px;
  
 
 }
 .f3 img{
   width: 100%;
-  height: 650px;
+  height: 600px;
   border-radius: 2%;
   transition: transform 0.3s ease;
-
 }
 
-
-
-
 .f4 {
-
   border-radius: 2%;
-  width: 30%; 
-  height: 650px;
+  display: inline-block;
+  width: 45%; 
+  height: 600px;
   margin: 10px;
  
 
 }
 .f4 img{
   width: 100%;
-  height: 650px;
+  height: 600px;
   border-radius: 2%;
   transition: transform 0.3s ease;
+}
+.f5 {
+  border-radius: 2%;
+  display: inline-block;
+  width: 45%; 
+  height: 600px;
+  margin: 10px;
+ 
 
 }
-
+.f5 img{
+  width: 100%;
+  height: 600px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+}
 
 
 
@@ -314,7 +324,7 @@ s{
 .a4 {
   border-radius: 2%;
   display: inline-block;
-  width: 50%; 
+  width: 45%; 
   height: 600px;
   margin: 10px;
  
@@ -324,8 +334,64 @@ s{
   width: 100%;
   height: 600px;
   border-radius: 2%;
+  transition: transform 0.3s;
+}
+
+.a5 {
+  border-radius: 2%;
+  display: inline-block;
+  width: 45%; 
+  height: 600px;
+  margin: 10px;
+ 
+
+}
+.a5 img{
+  width: 100%;
+  height: 600px;
+  border-radius: 2%;
   transition: transform 0.3s ease;
 }
+
+
+.a6 {
+  border-radius: 5%;
+  display: inline-block;
+  width: 500px; 
+  height: 400px;
+  margin: 10px;
+  
+  
+
+}
+.a6 img{
+  width: 100%;
+  height: 600px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+
+
+}
+
+
+.a7 {
+  border-radius: 2%;
+  display: inline-block;
+  width: 60%; 
+  height: 600px;
+  margin: 10px;
+ 
+
+}
+.a7 img{
+  width: 100%;
+  height: 600px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+
+}
+
+
 
 /* portait wale hai */
 
@@ -418,8 +484,8 @@ s{
 .s1 {
   border-radius: 5%;
   display: inline-block;
-  width: 45.0%; 
-  
+  width: 35.0%; 
+  height: 600px;
   margin: 10px;
   
   
@@ -429,40 +495,99 @@ s{
   width: 100%;
   height: 600px;
   border-radius: 2%;
-  transition: transform 0.3s ;
+  transition: transform 0.3s ease;
+
 
 }
-
-
 
 
 .s2 {
   border-radius: 2%;
   display: inline-block;
-  width: 45%; 
-  height: 550px;
+  width: 30%; 
+  height: 600px;
   margin: 10px;
-  position: relative;
+ 
+
 }
 .s2 img{
   width: 100%;
-  height: 550px;
+  height: 600px;
   border-radius: 2%;
-  transition: transform 0.3s ;
-  top: 10px;
+  transition: transform 0.3s ease;
 
 }
 
+.s3 {
+  border-radius: 2%;
+  display: inline-block;
+  width: 30%; 
+  height: 600px;
+  margin: 10px;
+ 
+
+}
+.s3 img{
+  width: 100%;
+  height: 600px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+}
+
+
+
+
+.s4 {
+  border-radius: 2%;
+  display: inline-block;
+  width: 60%; 
+  height: 600px;
+  
+ 
+
+}
+.s4 img{
+  width: 100%;
+  height: 600px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+  
+}
+
+
+
+.s5 {
+  border-radius: 2%;
+  display: inline-block;
+  width: 60%; 
+  height: 600px;
+ margin: 10px;
+ 
+
+}
+.s5 img{
+  width: 100%;
+  height: 600px;
+  border-radius: 2%;
+  transition: transform 0.3s ease;
+  
+}
 /* sky wale */
 
 
 
 /* hover wale hai */
 
-.onlyhover{
-  position: relative;
-
+.onlyhover {
+  display: flex;
+  flex-wrap: wrap; /* ✅ Allows images to move to the next line */
+  
+  gap: 5px; /* ✅ Space between images */
+  margin: 5px;
 }
+
+
+
 
 .onlyhover img:hover {
   
