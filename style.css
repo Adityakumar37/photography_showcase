@@ -1,79 +1,67 @@
-
 body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(#3b3c3a, #090909);
-    /* background-image: url(Flowers/IMG_20250817_175111991.jpg); */
-    margin: 0%;
-    background-position: center;
-    background-size: cover;
-    
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f7f7f7);
+  color: #1a1a1a;
 }
 
 
-
-.top{
-
-  background-color: #0b0b0b;
-  color: rgb(202, 185, 99);
-  position: relative;
-  padding:  16px ;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    
+.top {
+  background-color: #ffffff;
+  color: #222;
+  text-align: center;
+  padding: 18px;
+  font-size: 22px;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
 
 
-s{
-  position: absolute;
-  right: 30px;
-  top: 30%;
-
-}
-
-.btns a{
-  border: 1px solid rgb(161, 154, 119);
-  padding: 10px;
-  
-  margin: 10px;
-}
-
-.types {
-  background-color: #141313;
+.navdiv {
+  background-color: #f3f3f3; 
+  text-align: center;
   padding: 14px 0;
-  text-align: center; 
+  box-shadow: inset 0 -1px 3px rgba(0,0,0,0.05);
 }
 
 .types a {
-  display: inline-block; 
   text-decoration: none;
-  color: #eadfdf;
+  color: #222;
   font-weight: 500;
-  margin: 0 25px;        
-  padding: 8px 16px;
-  border-radius: 8px;
-  border: 2px solid transparent;
-
+  margin: 0 22px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
 }
 
 .types a:hover {
+  background-color: #e0e0e0; 
+  transform: scale(1.08);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  color: #000;
+}
 
-  border: 2px solid #3d3d3d;
-  color: #858181;
-  box-shadow: #eadfdf;
+
+
+.onlyhover {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 30px;
+  background: linear-gradient(to bottom, #f7f7f7, #f1f1f1);
+}
+
+.onlyhover img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.onlyhover img:hover {
   transform: scale(1.05);
-  background-color:#1f1d1d ;
-  
-  
-  
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
-
-.btns a:hover{
-    background-color:#423b3b ;
-    cursor: pointer;
-    color: white;
-    box-shadow: #eadfdf;
-    border-radius: 50%;
-}
 
 
 /* flowers wale item */
@@ -580,38 +568,44 @@ s{
 
 .onlyhover {
   display: flex;
-  flex-wrap: wrap; /* ✅ Allows images to move to the next line */
+  flex-wrap: wrap;
   
-  gap: 5px; /* ✅ Space between images */
+  gap: 5px; 
   margin: 5px;
 }
 
 
-
-
-.onlyhover img:hover {
-  
-  transform: scale(1.05); 
-  
+.types a:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.08);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  color: #000;
 }
 
 
 footer {
   text-align: center;
-  padding: 5px;
-  background-color: #111;   
-  color: #ccc;
-  font-family: 'Poppins', sans-serif;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 12px;
+  background-color: #efefef; 
+  color: #333;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  border-top: 1px solid #ddd;
+}
+
+footer strong {
+  color: #000;
 }
 
 footer a {
-  color: #f2b705;  
+  color: #000;
   text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+  transition: color 0.3s ease;
 }
 
 footer a:hover {
+  color: #555;
   text-decoration: underline;
 }
